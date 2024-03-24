@@ -4,17 +4,21 @@ This comprehensive analysis aims to unravel the trends and patterns of proposal 
 ### Description
 To kickstart this bounty, we meticulously gathered data on Arbitrum DAO's governance activities from Snapshot and Tally, channeling these insights into separate repositories. These repositories not only serve as foundational data sources for our current and future bounty submissions but also offer a rich starting point for any subsequent analysis, inviting the community to delve into the nuances of decentralized governance with ease.
 
-## [SnapShot Proposal and Votes Data Scrape Pipeline](https://github.com/yogesh-bansal/ArbSnapshotData)
+## [SnapShot Proposal and Votes Data Scrape Pipeline Repo](https://github.com/yogesh-bansal/ArbSnapshotData)
 <img src="www/SnapshotRepo.png" align="center"/>
 <div align="center">ArbSnapshotData Repo</div>
 &nbsp;
 &nbsp;
 
-## [Tally Proposal, Votes and Deelgaets Data Scrape Pipeline](https://github.com/yogesh-bansal/ArbTallyData)
+## [Tally Proposal, Votes and Deelgaets Data Scrape Pipeline Repo](https://github.com/yogesh-bansal/ArbTallyData)
 <img src="www/TallyRepo.png" align="center"/>
 <div align="center">ArbTallyData Repo</div>
 &nbsp;
 &nbsp;
+
+The repo has 2 scripts
+- The codebase to generate the plots below is placed in `analysis.R`
+- The codebase to generate the plots specific to delegates is placed in `analysisDelegate.R`
 
 <hr>
 
@@ -78,3 +82,31 @@ Upon examining the participation trends of new versus existing voters in governa
 The phenomenon of voter cohorts gradually disengaging becomes strikingly apparent through a heatmap that meticulously tracks proposal voters as distinct cohorts, subsequently monitoring the proportion of addresses that engage in Snapshot governance activities over time. A cohort initiating with a 100% participation rate indicates the influx of new voters for that specific proposal, with subsequent values reflecting the percentage of that cohort engaging in future proposals. Even a brief examination reveals that the initial cohorts participating in the governance process have demonstrated remarkable consistency in their voting patterns over time. However, as time progresses, it's evident that newer cohorts have not maintained the same level of engagement as their predecessors, indicating a shift in the participatory dynamics of the community.
 
 <hr>
+
+Repeating this analysis exclusively for delegates reveals strikingly similar patterns. By defining a delegate as an individual possessing more than 1 $ARB voting power and receiving delegation from at least two different sources, we identify a total of 1,499 delegates.
+
+#### 6. Unique Voters over Time for Delegates Only
+
+<img src="www/p2Delegate.jpg" align="center"/>
+<div align="center">Unique Voters over Time for Delegates Only</div>
+&nbsp;
+&nbsp;
+
+Plotting their participation over time we see a similar downward trend.
+
+<hr>
+
+#### 7. Cohort Stickiness Heatmap Delegates Only
+
+<img src="www/p4Delegate.png" align="center"/>
+<div align="center">Cohort Stickiness Heatmap Delegates Only</div>
+&nbsp;
+&nbsp;
+
+However, a glimmer of optimism emerges, as the trend of "drifting away" is not as pronounced among delegators on Tally, as illustrated by the heatmap. This suggests a more resilient level of engagement within the Tally platform's delegate community.
+
+<hr>
+
+### Conclusion
+
+In conclusion, this analysis offers the Arbitrum ecosystem an initial glimpse into the dynamics of governance participation, revealing ample opportunities to foster democratic engagement among the Arbinauts.
