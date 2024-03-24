@@ -5,7 +5,16 @@ This comprehensive analysis aims to unravel the trends and patterns of proposal 
 To kickstart this bounty, we meticulously gathered data on Arbitrum DAO's governance activities from Snapshot and Tally, channeling these insights into separate repositories. These repositories not only serve as foundational data sources for our current and future bounty submissions but also offer a rich starting point for any subsequent analysis, inviting the community to delve into the nuances of decentralized governance with ease.
 
 ## [SnapShot Proposal and Votes Data Scrape Pipeline](https://github.com/yogesh-bansal/ArbSnapshotData)
+<img src="www/SnapshotRepo.png" align="center"/>
+<div align="center">ArbSnapshotData Repo</div>
+&nbsp;
+&nbsp;
+
 ## [Tally Proposal, Votes and Deelgaets Data Scrape Pipeline](https://github.com/yogesh-bansal/ArbTallyData)
+<img src="www/TallyRepo.png" align="center"/>
+<div align="center">ArbTallyData Repo</div>
+&nbsp;
+&nbsp;
 
 <hr>
 
